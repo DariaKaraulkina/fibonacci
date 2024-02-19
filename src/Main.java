@@ -16,7 +16,7 @@ public class Main {
     }
 
     public static void fibonacci0(int maxNumber) { //исходный метод
-        int n0 = 1;
+        int n0 = 0;
         int n1 = 1;
         int n2;
         while (n0 + n1 <= maxNumber) {
@@ -45,7 +45,7 @@ public class Main {
         System.out.println();
     }
     public static void fibonacci1pro(int maxNumber) { //финальная реализация
-        int n0 = 1;
+        int n0 = 0;
         int n1 = 1;
         int n2;
         int[] myArray = new int[maxNumber];

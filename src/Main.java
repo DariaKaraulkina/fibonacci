@@ -16,7 +16,7 @@ public class Main {
     }
     public static int[] fibonacci2(int maxNumber) {
         int n0 = 1;
-        int n1 = 1;
+        int n1 = 0;
         int n2;
         int[] myArray = new int[maxNumber];
         int i;
